@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/server">
+      <div>
+        <label for="user">Enter Username:</label>
+        <input type="text" name="user" placeholder="username" id="user" />
+      </div>
+      <div>
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" placeholder="password" id="pass" />
+      </div>
+      <button>Submit</button>
+    </form>
+<hr>
+
+<h2>What ever we will search here will search over youtube website:</h2>
+<form action="https://www.youtube.com/results">
+  <input type="text" name="search_query" placeholder="search anything on youtube" >         <!--this (name="search_query") basically the value of 'name'attribute taken from youtube URL-->
+  <button>Search</button>
+</form>
+  </body>
+</html>

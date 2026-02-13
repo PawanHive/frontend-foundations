@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/server">
+    <div>
+      Choose any fruits:
+      <input type="radio" name="fruit" id="apple" value="apple">
+      <label for="apple">Apple</label>
+
+      <input type="radio" name="fruit" id="mango" value="mango"> 
+      <label for="mango">Mango</label>
+
+      <input type="radio" name="fruit" id="banana" value="banana">
+      <label for="banana">Banana</label>
+    </div>
+
+    <div>
+      Choose your subjects: 
+      <input type="checkbox" name="sub" id="math" value="math">
+      <label for="math">math</label>
+      <input type="checkbox" name="sub" id="science" value="sci">
+      <label for="science">science</label>
+      <input type="checkbox" name="sub" id="english" value="eng">
+      <label for="english">english</label>
+    </div>
+    <button>Submit</button>
+  </form>
+</body>
+</html>
+
+<!-- 
+1️⃣ Importance of "name" in Radio/checkbox Button
+🔹 Main Purpose:
+'name' groups radio buttons together.
+
+✅ Why it is important?
+
+- Radio buttons with the same 'name' → only one can be selected
+- Radio buttons with different name → multiple selections allowed
+-->
+
+<!-- 
+2️⃣ Importance of "value" in Radio Button
+🔹 Main Purpose:
+
+- 'value' is the actual data sent to the server when the form is submitted.
+-->
+
+<!--  
+OBSERVE URL after selecting any radio button:
+
+URL after selecting mango: http://127.0.0.1:3000/server?fruit=mango
+-->
+
+
+<!-- 
+IMPORTANT NOTE:
+
+- 'radio' button ko group karne ke baad bhi ham kewal koi ek hi select kar sakte hai
+- but 'checkbox' button ko group karne ke baad bhi ham multiple checkbox select kar sakta hain
+-->
