@@ -1,0 +1,38 @@
+/* Qs. for the given html & css, what is color of h1 */
+h1 {                            /*(0, 0, 1) = 1*/
+    color: pink;
+}
+
+#greet {                         /*(1, 0, 0) = 100*   (this will apply)*/
+    color: yellow;
+}
+
+.myClass {                       /*(0, 1, 0) = 10*/
+    color: brown;
+}
+
+/* Qs.2 for the given html & css code what is bg-color of p: */
+div p {                      /*(0, 0, 2) = 2*/
+    background-color: black;
+}
+
+.para {                        /*(0, 1, 0) = 10  (this will apply)*/
+    background-color: blue;
+}
+
+p {                            /*(0, 0, 1) = 1*/
+    background-color: green;
+}
+
+/* Qs.3 For the given html & css code, what is color of text "Hello World!"; */
+div.greetDiv .greet {               /*(0, 2, 1) = 21*/
+    color: green;
+}
+
+.greetDiv p.greet {                 /*(0, 2, 1) = 21  (this will apply)*/
+    color: red;
+}
+
+.greetDiv .greet {                  /*(0, 2, 0) = 20*/
+    color: blue;
+}
