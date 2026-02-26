@@ -1,0 +1,27 @@
+/* h2 {
+    display: inline;
+    background-color: pink;
+}
+
+span {
+    display: block;
+    background-color: yellowgreen;
+} */
+
+span {
+    /* background-color: pink; */
+    border: 2px solid black;
+    height: 100px;  /*ignored*/
+    width: 200px;  /*ignored*/
+    padding: 50px;  /* padding set only for (left & right side) and top/bottom side ignored*/ 
+    margin: 20px;  /* margin set only for (left & right side) and top/bottom side ignored*/ 
+}
+
+div {
+        background-color: lime;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px; 
+    padding: 50px;  
+    margin: 20px;
+}

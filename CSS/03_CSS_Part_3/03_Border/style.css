@@ -1,0 +1,43 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid yellow;
+    /* border-left-color: blue;
+    border-left-style: dashed; */
+    border-top: 5px dashed blue;
+}
+
+h1 {
+    /* border: width 2px;
+    border-style: dashed;
+    border-color: green; */
+    border: 2px dashed green;
+}
+
+/* 
+------------- Border --------------------
+Used to set an element's border
+
+- border-width
+- border-style
+- border-color
+*/
+
+/* 
+-------------border shorthand--------------------
+width/style/color
+*/
+
+/* 
+------------- Border Sides -------------------
+To control an individual side of the box
+
+- border-left
+- border-right
+- border-top
+- border-bottom
+*/
