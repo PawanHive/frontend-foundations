@@ -1,0 +1,11 @@
+div {
+    height: 200px;
+    width: 360px;
+    background-color: green;
+    margin: 10px auto;
+    color: white;
+    background-image: url(sunrise.jpg);
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: auto;
+}

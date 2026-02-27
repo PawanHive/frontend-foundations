@@ -1,0 +1,36 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+
+/* transfrom rotate*/
+#one:hover {
+    transform: rotate(45deg);
+}
+
+/* transfrom scale */
+#two:hover {
+    transform: scale(0.5);
+}
+
+/* transfrom translate */
+#three:hover {
+    /* transform: translate(50px, 100px); */
+    transform: translate(10px);
+}
