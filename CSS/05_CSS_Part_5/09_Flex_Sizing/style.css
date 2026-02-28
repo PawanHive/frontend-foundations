@@ -1,0 +1,74 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+
+    justify-content: flex-start;
+
+    align-content: flex-start;
+
+
+}
+
+#org {
+    align-self: baseline;
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+#blue {
+    /* flex-basis: 400px; */
+    /* flex-grow: 1; */
+    /* flex-grow: 2; */
+    /* max-width: 50px; */
+    /* min-width: 40px; */
+
+    /* flex-shrink: 1; */
+    /* flex-shrink: 2; */
+    flex-shrink: 3;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+
+/* 
+---------------------- flex-basis ---------------------------
+It sets the initial main size of a flex item.
+
+flex-basis: 100px;
+*/
+
+
+/* 
+--------------------- Flex-grow -------------------------
+It specifies how much of the flex container's remaining space should be assigned to the flex item's main size
+
+flex-grow: 1;  (default)
+*/
+
+
+/* 
+--------------------- flex-shrink --------------------------
+It sets the flex shrink factor of a flex item 
+
+flex-shrink: 1
+*/
